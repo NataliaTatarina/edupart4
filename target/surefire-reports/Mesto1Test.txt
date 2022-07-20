@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: Mesto1Test
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.773 s - in Mesto1Test
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.249 s <<< FAILURE! - in Mesto1Test
+likeTheFirstPhotoTest(Mesto1Test)  Time elapsed: 8.505 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at Mesto1Test.likePhotoById(Mesto1Test.java:57)
+	at Mesto1Test.likeTheFirstPhotoTest(Mesto1Test.java:38)
+
