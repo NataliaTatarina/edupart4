@@ -20,7 +20,7 @@ public class Mesto1Test {
     @Test
     @DisplayName("Add a new photo")
     @Description("This test is for adding a new photo to Mesto.")
-    public void addNewPhoto() {
+    public void addNewPhotoTest() {
         given()
                 .header("Content-type", "application/json") // Передаём Content-type в заголовке для указания типа файла
                 .auth().oauth2(bearerToken) // Передаём токен для аутентификации
@@ -32,7 +32,7 @@ public class Mesto1Test {
     @Test
     @DisplayName("Like the first photo")
     @Description("This test is for liking the first photo on Mesto.")
-    public void likeTheFirstPhoto() {
+    public void likeTheFirstPhotoTest() {
         String photoId = getTheFirstPhotoId();
 
         likePhotoById(photoId);
