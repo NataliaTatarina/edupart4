@@ -25,13 +25,13 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
+            <version>4.2.1</version>
         </dependency>
 
         <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
-            <version>5.23.2</version>
+            <version>6.6.3</version>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
@@ -42,7 +42,7 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-junit4</artifactId>
-            <version>2.15.0</version>
+            <version>2.18.1</version>
             <scope>test</scope>
         </dependency>
 
