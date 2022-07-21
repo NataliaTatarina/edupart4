@@ -33,8 +33,7 @@ public class Mesto1Test {
     @DisplayName("Like the first photo")
     @Description("This test is for liking the first photo on Mesto.")
     public void likeTheFirstPhotoTest() {
-        String photoId = getTheFirstPhotoId()+6;
-
+        String photoId = getTheFirstPhotoId();
         likePhotoById(photoId);
         deleteLikePhotoById(photoId);
     }
