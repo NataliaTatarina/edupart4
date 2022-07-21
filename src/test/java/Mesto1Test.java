@@ -29,6 +29,7 @@ public class Mesto1Test {
                 .then().statusCode(201); // Проверяем код ответа
     }
 
+
     @Test
     @DisplayName("Like the first photo")
     @Description("This test is for liking the first photo on Mesto.")
